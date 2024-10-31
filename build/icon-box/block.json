@@ -1,0 +1,122 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "safelayout/safelayout-icon-box",
+  "version": "1.1.0",
+  "title": "Icon Box (Safelayout)",
+  "category": "blocks-safelayout-category",
+  "description": "Beautiful SVG icon box.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "elementStyle": {
+      "type": "string",
+      "default": ""
+    },
+    "iconPos": {
+      "type": "string",
+      "default": "top"
+    },
+    "iconVerticalPos": {
+      "type": "string",
+      "default": "flex-start"
+    },
+    "hasBg": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasBtn": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasRibbon": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "linear-gradient(#eff 0%, #10ffff 100%)"
+    },
+    "hasBgShadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgShadow": {
+      "type": "string",
+      "default": "3px 3px 5px #000"
+    },
+    "blockMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "blockPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "border": {
+      "type": "object"
+    },
+    "borderRadius": {
+      "type": "object"
+    },
+    "label": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "bgPattern": {
+      "type": "string",
+      "default": "No Pattern"
+    },
+    "patternOpacity": {
+      "type": "number",
+      "default": 0.2
+    },
+    "effect": {
+      "type": "string",
+      "default": "No Effect"
+    },
+    "effectValue0": {
+      "type": "string",
+      "default": ""
+    },
+    "effectValue1": {
+      "type": "string",
+      "default": ""
+    },
+    "effectValue2": {
+      "type": "string",
+      "default": ""
+    },
+    "effectValue3": {
+      "type": "string",
+      "default": ""
+    },
+    "animation": {
+      "type": "string",
+      "default": "No Animation"
+    },
+    "animColor": {
+      "type": "string",
+      "default": "#fff"
+    }
+  },
+  "textdomain": "safelayout-elegant-icons",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

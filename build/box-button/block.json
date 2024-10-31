@@ -1,0 +1,184 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "safelayout/safelayout-box-button",
+  "version": "1.1.0",
+  "title": "Box Button (Safelayout)",
+  "parent": [
+    "safelayout/safelayout-icon-box"
+  ],
+  "category": "blocks-safelayout-category",
+  "description": "Icon box button.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string",
+      "default": "Read More"
+    },
+    "align": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#00f"
+    },
+    "hasBg": {
+      "type": "boolean",
+      "default": true
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#3f3"
+    },
+    "bold": {
+      "type": "boolean",
+      "default": false
+    },
+    "italic": {
+      "type": "boolean",
+      "default": false
+    },
+    "uppercase": {
+      "type": "boolean",
+      "default": false
+    },
+    "fontSize": {
+      "type": "string",
+      "default": "16px"
+    },
+    "lineHeight": {
+      "type": "string",
+      "default": "1.5"
+    },
+    "letterSpacing": {
+      "type": "string",
+      "default": "0px"
+    },
+    "width": {
+      "type": "number",
+      "default": 0
+    },
+    "hasBgShadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgShadow": {
+      "type": "string",
+      "default": "1px 1px 2px #000"
+    },
+    "hasTextShadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "textShadow": {
+      "type": "string",
+      "default": "1px 1px 2px #fff"
+    },
+    "blockMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "blockPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "border": {
+      "type": "object"
+    },
+    "borderRadius": {
+      "type": "object"
+    },
+    "hasIcon": {
+      "type": "boolean",
+      "default": false
+    },
+    "iconPos": {
+      "type": "string",
+      "default": "left"
+    },
+    "iconGap": {
+      "type": "number",
+      "default": 5
+    },
+    "iconName": {
+      "type": "string",
+      "default": "000_next"
+    },
+    "iconPaths": {
+      "type": "array",
+      "default": [
+        {
+          "d": "M6.6 6L5.4 7l4.5 5-4.5 5 1.1 1 5.5-6-5.4-6zm6 0l-1.1 1 4.5 5-4.5 5 1.1 1 5.5-6-5.5-6z"
+        }
+      ]
+    },
+    "iconColor": {
+      "type": "array",
+      "default": [
+        "#00f"
+      ]
+    },
+    "iconStrokeColor": {
+      "type": "array",
+      "default": [
+        "#000"
+      ]
+    },
+    "iconStrokeWidth": {
+      "type": "array",
+      "default": [
+        0
+      ]
+    },
+    "label": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "linkUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "linkRel": {
+      "type": "string",
+      "default": ""
+    },
+    "linkTarget": {
+      "type": "string",
+      "default": ""
+    },
+    "effect": {
+      "type": "string",
+      "default": "No Effect"
+    },
+    "animation": {
+      "type": "string",
+      "default": "No Animation"
+    },
+    "animColor": {
+      "type": "string",
+      "default": "#fff"
+    }
+  },
+  "textdomain": "safelayout-elegant-icons",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "safelayout/safelayout-box-ribbon",
+  "version": "1.1.0",
+  "title": "Box Ribbon (Safelayout)",
+  "parent": [
+    "safelayout/safelayout-icon-box"
+  ],
+  "category": "blocks-safelayout-category",
+  "description": "Icon box ribbon.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "content": {
+      "type": "string",
+      "default": "Ribbon"
+    },
+    "align": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#00f"
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#ea4335"
+    },
+    "bold": {
+      "type": "boolean",
+      "default": false
+    },
+    "italic": {
+      "type": "boolean",
+      "default": false
+    },
+    "uppercase": {
+      "type": "boolean",
+      "default": false
+    },
+    "fontSize": {
+      "type": "string",
+      "default": "24px"
+    },
+    "lineHeight": {
+      "type": "string",
+      "default": "1.5"
+    },
+    "letterSpacing": {
+      "type": "string",
+      "default": "0px"
+    },
+    "posOffset": {
+      "type": "number",
+      "default": 0
+    },
+    "hasBgShadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgShadow": {
+      "type": "string",
+      "default": "1px 1px 2px #000"
+    },
+    "hasTextShadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "textShadow": {
+      "type": "string",
+      "default": "1px 1px 2px #fff"
+    },
+    "blockMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "blockPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "bgPattern": {
+      "type": "string",
+      "default": "No Pattern"
+    },
+    "patternOpacity": {
+      "type": "number",
+      "default": 0.2
+    },
+    "effect": {
+      "type": "string",
+      "default": "effect001"
+    },
+    "hasEffectBorder": {
+      "type": "boolean",
+      "default": false
+    },
+    "effectBorderColor": {
+      "type": "string",
+      "default": "#fff"
+    }
+  },
+  "textdomain": "safelayout-elegant-icons",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

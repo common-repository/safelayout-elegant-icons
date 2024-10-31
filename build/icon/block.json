@@ -1,0 +1,188 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "safelayout/safelayout-icon",
+  "version": "1.1.0",
+  "title": "Icon (Safelayout)",
+  "category": "blocks-safelayout-category",
+  "description": "Beautiful SVG icons.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "align": {
+      "type": "string"
+    },
+    "rotate": {
+      "type": "number",
+      "default": 0
+    },
+    "flipHorizontal": {
+      "type": "boolean",
+      "default": false
+    },
+    "flipVertical": {
+      "type": "boolean",
+      "default": false
+    },
+    "rotateBg": {
+      "type": "number",
+      "default": 0
+    },
+    "name": {
+      "type": "string",
+      "default": "001_admin customizer"
+    },
+    "paths": {
+      "type": "array",
+      "default": [
+        {
+          "d": "M20.465 5.76s.27-.8-.31-1.36c-.53-.52-1.22-.24-1.22-.24-.61.3-5.76 3.47-7.67 5.57-.86.96-2.06 3.79-1.09 4.82.92 .98 3.96-.17 4.79-1 2.06-2.06 5.21-7.17 5.5-7.79zM3.535 19.84c2.37-1.56 1.46-3.41 3.23-4.64.93-.65 2.22-.62 3.08.29 .63.67 .8 2.57-.16 3.46-1.57 1.45-4 1.55-6.15.89z"
+        }
+      ]
+    },
+    "hasBg": {
+      "type": "boolean",
+      "default": true
+    },
+    "bgShape": {
+      "type": "string",
+      "default": "rect"
+    },
+    "bgShapeVal": {
+      "type": "string",
+      "default": ""
+    },
+    "size": {
+      "type": "string",
+      "default": "48px"
+    },
+    "color": {
+      "type": "array",
+      "default": [
+        "linear-gradient(45deg, #FF59BF 0%, #FF99D9 24%, #A6FF66 75%, #8CFF4C 100%)"
+      ]
+    },
+    "strokeColor": {
+      "type": "array",
+      "default": [
+        "#000"
+      ]
+    },
+    "strokeWidth": {
+      "type": "array",
+      "default": [
+        0
+      ]
+    },
+    "hasShadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "shadow": {
+      "type": "string",
+      "default": "drop-shadow(2px 2px 1px #000)"
+    },
+    "svgFilter": {
+      "type": "string",
+      "default": "none"
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "linear-gradient(0deg,#0130FF 0%,#3CB4FF 100%)"
+    },
+    "bgStrokeColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "bgStrokeWidth": {
+      "type": "number",
+      "default": 0
+    },
+    "hasBgShadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgShadow": {
+      "type": "string",
+      "default": "drop-shadow(0px 3px 2px #000)"
+    },
+    "hasBaseShadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "baseShadowWidth": {
+      "type": "number",
+      "default": 70
+    },
+    "baseShadowHeight": {
+      "type": "number",
+      "default": 12
+    },
+    "baseShadowTop": {
+      "type": "number",
+      "default": 96
+    },
+    "padding": {
+      "type": "number",
+      "default": 3
+    },
+    "bgRadius": {
+      "type": "number",
+      "default": 10
+    },
+    "effect": {
+      "type": "string",
+      "default": "No Effect"
+    },
+    "animation": {
+      "type": "string",
+      "default": "No Animation"
+    },
+    "blockMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "blockPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "label": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "linkUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "linkRel": {
+      "type": "string",
+      "default": ""
+    },
+    "linkTarget": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "safelayout-elegant-icons",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "safelayout/safelayout-container",
+  "version": "1.1.0",
+  "title": "Container (Safelayout)",
+  "category": "blocks-safelayout-category",
+  "parent": [
+    "safelayout/safelayout-icon-box"
+  ],
+  "description": "Container block.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "TagName1": {
+      "type": "string",
+      "default": "div"
+    },
+    "TagName2": {
+      "type": "string",
+      "default": ""
+    },
+    "TagHelper": {
+      "type": "string",
+      "default": ""
+    },
+    "className1": {
+      "type": "string",
+      "default": ""
+    },
+    "className2": {
+      "type": "string",
+      "default": ""
+    },
+    "helperCName": {
+      "type": "string",
+      "default": ""
+    },
+    "style1": {
+      "type": "object"
+    },
+    "style2": {
+      "type": "object"
+    },
+    "helperStyle": {
+      "type": "object"
+    }
+  },
+  "textdomain": "safelayout-elegant-icons",
+  "editorScript": "file:./index.js"
+}
